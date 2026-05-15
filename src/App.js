@@ -88,7 +88,7 @@ const TOS_ITEMS = [
   {
     icon: "✦",
     title: "การชำระเงิน",
-    body: "ชำระ 50% ล่วงหน้าก่อนเริ่มงาน และส่วนที่เหลือเมื่องานเสร็จสมบูรณ์ รองรับ PromptPay และ PayPal",
+    body: "ชำระ 50% ล่วงหน้าก่อนเริ่มงาน และส่วนที่เหลือเมื่องานเสร็จสมบูรณ์ รองรับ PromptPay และ Buy Me a Coffee",
   },
   {
     icon: "✦",
@@ -563,18 +563,7 @@ function ContactSection() {
           </a>
         ))}
       </div>
-      <div style={{
-        padding: "2rem", textAlign: "center",
-        border: "0.5px solid rgba(200,180,220,0.08)", borderRadius: 4,
-        background: "rgba(107,63,160,0.06)",
-      }}>
-        <div style={{ fontFamily: "'Cinzel', serif", fontSize: 14, color: "#c8a8e8", letterSpacing: "0.1em", marginBottom: "0.75rem" }}>
-          STATUS : OPEN
-        </div>
-        <p style={{ fontFamily: "'Crimson Pro', serif", fontSize: 16, color: "rgba(200,180,220,0.45)", lineHeight: 1.7, margin: 0 }}>
-          คิวปัจจุบัน : 0/5 slots · ระยะเวลาตอบกลับ 1–3 วัน
-        </p>
-      </div>
+
     </section>
   );
 }
